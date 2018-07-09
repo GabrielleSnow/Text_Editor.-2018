@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+    <body>
+       <pre contenteditable="true">
+          <code>line 1</code>
+          <code>line 2</code>
+          <code>line 3</code>
+          <code>line 4</code>
+          <code>line 5</code>
+        </pre>
+
+    </body>
+
+    <style>
+pre{
+    counter-reset: line;
+}
+code{
+    counter-increment: line;
+}
+code:before{
+    content: counter(line);
+}
+code:before{
+    -webkit-user-select: none;
+}
+
+</style>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+
+</html>
