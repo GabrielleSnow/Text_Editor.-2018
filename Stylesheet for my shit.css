@@ -1,0 +1,50 @@
+body {
+    background-color: bisque;
+    margin: 0;
+  
+}
+ h1 {
+     color: seagreen
+ }
+
+ h4 {
+     color: black
+         
+ }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: seagreen;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+}
+
+.p1 {
+    color: rgb(2, 138, 2)
+}
+
+.p2 {
+    color: rgb(2, 117, 2)
+}
+.p3 {
+    color: rgb(1, 100, 1)
+}
+.p4{
+    color: rgb(1, 49, 1)
+}
+
